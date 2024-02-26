@@ -1,0 +1,495 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+A:hover {
+    color: blueviolet;
+}
+
+/* header ----------------------------- */
+
+header {
+    width: 1200px;
+    height: 490px;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    background: linear-gradient(black, rgb(98, 194, 197));
+}
+.nameAndNav {
+    width:1200px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.namestranica {
+    width: 200px;
+    height: 48px;
+    margin-left: 139px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.namestranica p {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.navigation {
+    display: flex;
+    margin-top: 70px;
+}
+.navigation nav{
+    color: white;
+    display: flex;
+    text-decoration: none;
+}
+.navigation li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 20px;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+.home {
+    background-color: aqua;
+    height: 20px;
+    width: 50px;
+    padding-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+}   
+.home a {
+    color: black;
+    position: absolute;
+    top: 75px;
+    left: 625px;
+}
+
+.fotoAndtext {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.left {
+    height: 30vh;
+    width: 300px;
+    margin-left: 90px;
+    padding-bottom: 60px;
+
+}
+.hello {
+    width: 100px;
+    height: 54px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+.hello p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    font-style: normal;
+    color: white;
+}
+.textHello {
+    width: 263px;
+    height: 32px;
+    padding-left: 50px;
+    padding-top: 0px;
+    margin: 0;
+}
+.textHello p {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: white;
+}
+.textloremheader {
+    width: 276px;
+    height: 116px;
+    padding-left: 50px;
+}
+.textloremheader p {
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: rgb(35, 98, 128);
+}
+.imageheader {
+    padding-top: 50px;
+}
+.imageheader img{
+    width: 500px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+/* main --------------------------------------------*/
+
+.palka1 {
+    width: 920px;
+    height: 0px;
+    background-color: black;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.palka2 {
+    width: 920px;
+    height: 0px;
+    background-color: black;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.palka3 {
+    width: 920px;
+    height: 0px;
+    background-color: black;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.sposobnosti {
+    width: 920px;
+    height: 249px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 160px;
+}
+.onecard {
+    width: 290px;
+    height: 249px;
+}
+.imagecard1 {
+    width: 268px;
+    height: 81px;
+    padding: 0;
+}
+.imagecard1 img {
+    width: 268px;
+    height: 81px;
+    padding: 0;
+}
+.textAndbottoncard1 {
+    width: 290px;
+    height: 151px;
+    padding: 0;
+}
+.textAndbottoncard1 p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.textAndbottoncard1 button {
+    border-color: grey;
+    margin: 0;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+}
+.twocard {
+    width: 290px;
+    height: 249px;
+}
+.imagecard2 {
+    width: 268px;
+    height: 81px;
+    padding: 0;
+}
+.imagecard2 img {
+    width: 268px;
+    height: 81px;
+    padding: 0;
+}
+.textAndbottoncard2 {
+    width: 290px;
+    height: 151px;
+    padding: 0;
+}
+.textAndbottoncard2 p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.textAndbottoncard2 button {
+    border-color: grey;
+    margin: 0;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+}
+
+
+.threecard {
+    width: 290px;
+    height: 249px;
+}
+.imagecard3 {
+    width: 268px;
+    height: 81px;
+    padding: 0;
+}
+.imagecard3 img {
+    width: 268px;
+    height: 81px;
+    padding: 0;
+}
+.textAndbottoncard3 {
+    width: 290px;
+    height: 151px;
+    padding: 0;
+}
+.textAndbottoncard3 p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+.textAndbottoncard3 button {
+    border-color: grey;
+    margin: 0;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.rabota {
+    width: 920px;
+    height: 316px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-left: 150px;
+}
+.imageRabota_card1 {
+    padding: 0;
+    margin: 0;
+}
+.imageRabota_card1 img {
+    width: 290px;
+    height: 120px;
+    padding: 0;
+    margin: 0;
+}
+.namerabotacard1 {
+    width: 165px;
+    height: 29px;
+    padding: 0; 
+    margin: 0;
+}
+.namerabotacard1 p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+.textrabotacard1 {
+    width: 290px;
+    height: 151px;
+}
+.textrabotacard1 p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+}
+.textrabotacard1 button {
+    border-color: grey;
+    margin: 0;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+    color: grey;
+    margin-top: 10px;
+}
+.imageRabota_card2 {
+    padding: 0;
+    margin: 0;
+}
+.imageRabota_card2 img {
+    width: 290px;
+    height: 120px;
+    padding: 0;
+    margin: 0;
+}
+.namerabotacard2 {
+    width: 165px;
+    height: 29px;
+    padding: 0; 
+    margin: 0;
+}
+.namerabotacard2 p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+.textrabotacard2 {
+    width: 290px;
+    height: 151px;
+}
+.textrabotacard2 p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+}
+.textrabotacard2 button {
+    border-color: grey;
+    margin: 0;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+    color: grey;
+    margin-top: 10px;
+}
+.imageRabota_card3 {
+    padding: 0;
+    margin: 0;
+}
+.imageRabota_card3 img {
+    width: 290px;
+    height: 120px;
+    padding: 0;
+    margin: 0;
+}
+.namerabotacard3 {
+    width: 165px;
+    height: 29px;
+    padding: 0; 
+    margin: 0;
+}
+.namerabotacard3 p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+.textrabotacard3 {
+    width: 290px;
+    height: 151px;
+}
+.textrabotacard3 p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+}
+.textrabotacard3 button {
+    border-color: grey;
+    margin: 0;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+    color: grey;
+    margin-top: 10px;
+} 
+.contacts {
+    width: 920px;
+    height: 51px;
+    display: grid;
+    grid-template-columns: 8% 75% 17%;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+.logocontacts {
+    width: 62px;
+    height: 62px;
+}
+.logocontacts img{
+    width: 52px;
+    height: 52px;
+}
+.textContacts {
+    width: 656px;
+    height: 37px;
+    padding: 0;
+    margin: 0;
+}
+.textContacts p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+
+}
+.buttoncontacts button {
+    width: 155px;
+    height: 50px;
+    background-color: rgb(218, 212, 212);
+    border: none;
+    background: linear-gradient(grey black);
+}
+
+/* footer -----------------------------------------------------*/
+
+footer {
+    width: 1200px;
+    height: 105px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #0F201C;
+}
+
+.navFooter {
+    display: inline;
+    padding-top: 15px;
+}
+.navFooter nav {
+    display: inline;
+    text-decoration: none;
+
+}
+.navFooter li {
+    display: inline;
+    color: white;
+    margin: 0 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+.navFooter a {
+    text-decoration: none;
+    color: white;
+}
+.contactFooter p {
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
